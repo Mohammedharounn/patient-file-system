@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Online Website Builder v5.9.13, https://a.mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.9.13, a.mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/photo-1576091160399-112ba8d25d1d.jpeg" type="image/x-icon">
+  <meta name="description" content="Healthcare unit login, signup, data analysis, treatment, and all healthcare needs fulfilled.">
+  <title>Healthcare Unit Portal</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/bootstrap/css/bootstrap.min.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/parallax/jarallax.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/dropdown/css/style.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/socicon/css/styles.css?rnd=1715962289983">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/theme/css/style.css?rnd=1715962289983">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/449348/assets/css/mbr-additional.css?rnd=1715962289983" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-ud34dIpUmG" once="menu" id="menu-5-ud34dIpUmG">
+	
+
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a >
+						<img src="assets/images/photo-1576091160399-112ba8d25d1d.jpeg" alt="Mobirise Website Builder" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" >HealHub</a></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="navbar-buttons mbr-section-btn">
+					<a class="btn btn-primary display-4" href=>Login</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header16 cid-ud34dIqf9C mbr-fullscreen mbr-parallax-background" id="hero-17-ud34dIqf9C">
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong>HealTech</strong>
+        </h1>
+        
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Revolutionizing Healthcare with Cutting-Edge Technology and Unmatched Care</p>
+        <div class="mbr-section-btn">
+          <a class="btn btn-white-outline display-7" href=>Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="article07 cid-ud34dIq0Qn" id="about-us-7-ud34dIq0Qn">
+  
+
+  
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card col-md-12 col-lg-10">
+        <div class="card-wrapper">
+          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
+            <strong>Welcome to HealHub</strong>
+          </h3>
+          <div class="row card-box align-left">
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">At HealHub, we're not just a healthcare unit; we're a powerhouse of innovation and compassion. Join us on a journey to redefine healthcare.</p>
+              </div>
+            </div>
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">From seamless login and signup processes to advanced data analysis and personalized treatment plans, we have everything a healthcare unit needs.</p>
+              </div>
+            </div>
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">Experience the future of healthcare with HealHub - where technology meets empathy to provide unparalleled care.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="slider4 mbr-embla cid-ud34dIrQhb" id="gallery-13-ud34dIrQhb">
+  
+  
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-12">
+        <div class="embla position-relative" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play="true" data-auto-play-interval="5" data-draggable="true">
+          <div class="embla__viewport">
+            <div class="embla__container">
+              <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="slide-content">
+                  <div class="item-img">
+                    <div class="item-wrapper">
+                      <img src="assets/images/photo-1612277795259-607df5c06e6d.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="slide-content">
+                  <div class="item-img">
+                    <div class="item-wrapper">
+                      <img src="assets/images/photo-1612277795511-39caabca8185.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="slide-content">
+                  <div class="item-img">
+                    <div class="item-wrapper">
+                      <img src="assets/images/photo-1584982751601-97dcc096659c.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="slide-content">
+                  <div class="item-img">
+                    <div class="item-wrapper">
+                      <img src="assets/images/photo-1470116945706-e6bf5d5a53ca.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="slide-content">
+                  <div class="item-img">
+                    <div class="item-wrapper">
+                      <img src="assets/images/photo-1532938911079-1b06ac7ceec7.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="embla__button embla__button--prev">
+            <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+            <span class="sr-only visually-hidden visually-hidden">Previous</span>
+          </button>
+          <button class="embla__button embla__button--next">
+            <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+            <span class="sr-only visually-hidden visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features035 cid-ud34dIrjsI" id="call-to-action-11-ud34dIrjsI">
+    
+
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-9 active">
+                <div class="item-wrapper">
+                    <div class="card-box">
+                        <h4 class="card-text mbr-fonts-style display-7">Sign up today and unlock a world of healthcare possibilities. Get exclusive access to cutting-edge treatments and personalized care.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 active">
+                <div class="mbr-section-btn">
+                    <a class="btn btn-primary display-7" href=>Join HealHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features03 cid-ud34dIrBgF" id="features-5-ud34dIrBgF">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Revolutionize Healthcare Experience</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1571772996211-2f02c9727629.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+                            <strong>Login &amp; Signup</strong>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-3 display-7">Seamless access to personalized healthcare services with just a click.</p>
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1607619056574-7b8d3ee536b2.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+                            <strong>Data Analysis</strong>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-3 display-7">Harness the power of data to optimize your health journey.</p>
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1505751172876-fa1923c5c528.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+                            <strong>Personalized Treatment</strong>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-3 display-7">Tailored treatment plans designed just for you.</p>
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="list05 cid-ud34dIsMgq" id="faq-3-ud34dIsMgq">
+    
+    <div class="container">
+        <div class="col-12 mb-5 content-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Got Questions? We Have Answers!</strong>
+            </h3>
+            
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-12 col-lg-8">
+                <div class="item features-without-image col-12 active">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>How secure is my data?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">Fort Knox level security to protect your information.</p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Can I access my data anytime?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">Absolutely! Your health data is at your fingertips 24/7.</p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Is telemedicine available?</strong></h5>
+                        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">Yes, consult with top doctors from the comfort of your home.</p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                  <div class="item-wrapper">
+                      <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                          <strong>How can I track my progress?</strong></h5>
+                      <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">Track your health journey with interactive progress reports.</p>
+                  </div>
+              </div>
+              <div class="item features-without-image col-12">
+                <div class="item-wrapper">
+                    <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-5">
+                        <strong>What if I need urgent care?</strong></h5>
+                    <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">Emergency services available round the clock for your peace of mind.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="people03 cid-ud34dIsVbo" id="team-1-ud34dIsVbo">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Meet Our Team</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1527718641255-324f8e2d0421.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-5">
+                            <strong>Dr. Max</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-7">Chief Medical Officer</h6>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1567468219153-4b1dea5227ea.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-5">
+                            <strong>Dr. Lily</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-7">Lead Data Analyst</h6>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1662795854059-547d94855285.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-5">
+                            <strong>Dr. Alex</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-7">Senior Treatment Specialist</h6>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                       <img src="assets/images/photo-1677520338280-664ae23816eb.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-5">
+                            <strong>Dr. Sophia</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-7">Patient Care Advocate</h6>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image05 cid-ud34dIsCxW" id="image-7-ud34dIsCxW">    
+    
+    
+    
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper mb-4">
+                    <img class="w-100" src="assets/images/photo-1576091160550-2173dba999ef.jpeg" alt="Mobirise Website Builder">
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg">
+                <p class="mbr-side-description mbr-fonts-style mb-4 align-center display-7">Experience a new era of healthcare with cutting-edge technology and personalized care.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="news08 cid-ud34dIs1q2" id="blog-4-ud34dIs1q2">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Healthcare Insights &amp; Tips</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1584432810601-6c7f27d2362b.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">May 15, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>Unlocking Health Data Secrets</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Discover how data analysis is transforming healthcare for better outcomes.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1504439468489-c8920d796a29.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">May 10, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>The Power of Personalized Treatment</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Explore the benefits of tailored treatment plans for individual health goals.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1554734867-bf3c00a49371.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">May 5, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>Telemedicine: The Future of Healthcare</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Learn how virtual consultations are revolutionizing access to medical expertise.</p>
+                        
+                    </div>
+                </div>
+            </div>        
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1611075384322-731537ad7971.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">April 30, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>Data-Driven Wellness Tips</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Get insights on using data analysis to improve your overall well-being.</p>
+                        
+                    </div>
+                </div>
+            </div>       
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1526628953301-3e589a6a8b74.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">April 25, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>Emergency Care: What You Need to Know</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Stay informed about accessing urgent medical assistance when every second counts.</p>
+                        
+                    </div>
+                </div>
+            </div>        
+            <div class="item features-image col-12 col-md-6 col-lg-4 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1612277795009-f95f2e8c4a02.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style display-7">April 20, 2024</h5>
+                        <h6 class="item-subtitle mbr-fonts-style display-5">
+                            <strong>The Human Touch in Healthcare</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Discover the importance of empathy and compassion in patient care.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article9 cid-ud34dItZiK" id="generic-text-9-ud34dItZiK">
+  
+
+  
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card col-md-12 col-lg-10">
+        <div class="card-wrapper">
+          <div class="card-content-text">
+            <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
+            <strong>Revolutionizing Healthcare</strong>
+          </h3>
+          <div class="row card-box align-left">
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">Welcome to the future of healthcare where login and signup are just the beginning. Dive into a world of cutting-edge data analysis, innovative treatments, and everything a healthcare unit craves.</p>
+              </div>
+            </div>
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">Join us on this thrilling journey as we redefine the standards of healthcare excellence. Say goodbye to the mundane and hello to a realm where your health is our top priority.</p>
+              </div>
+            </div>
+            <div class="item features-without-image col-12">
+              <div class="item-wrapper">
+                
+                <p class="mbr-text mbr-fonts-style display-7">Experience the ultimate fusion of technology and care, tailored to meet all the needs of a modern healthcare unit. Let's embark on a transformational healthcare adventure together!</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="image-wrapper d-flex justify-content-center mt-3">
+            <img src="assets/images/photo-1579154204601-01588f351e67.jpeg" alt="Mobirise Website Builder">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features023 cid-ud34dItCKL" id="metrics-1-ud34dItCKL">
+
+    
+
+    
+    
+    <div class="container">
+        
+        <div class="row content-row justify-content-center">
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>100%</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Innovation Guaranteed</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>24/7</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Always Available</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>Unlimited</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Possibilities Await</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="people05 cid-ud34dIt2yn" id="testimonials-6-ud34dIt2yn">
+	
+
+	
+	
+	<div class="container">
+		<div class="row mb-5 justify-content-center">
+			<div class="col-12 mb-0 content-head">
+				<h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+					<strong>Rave</strong>
+				</h3>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-without-image col-12 col-md-6 col-lg-4 active">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">Mind-blowing service! I never knew healthcare could be this exciting. A game-changer in the industry.</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1536548665027-b96d34a005ae.jpeg" alt="" data-slide-to="0" data-bs-slide-to="0">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Maxwell Johnson</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">Exceptional care and expertise. They truly understand what a healthcare unit needs to thrive.</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1606081430924-b6480765d470.jpeg" data-slide-to="1" data-bs-slide-to="1" alt="">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Sophia Rodriguez</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">Revolutionized my approach to healthcare. Their data analysis and treatments are unparalleled.</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1548130149-a6955bd8d6f9.jpeg" data-slide-to="2" data-bs-slide-to="2" alt="">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Ethan Parker</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-bs-version="5.1" class="social4 cid-ud34dIt9mn" id="follow-us-1-ud34dIt9mn">
+    
+    
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                    <strong>Join the Movement Today</strong>
+                </h3>
+                <div class="social-list align-center">
+                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href=>
+                        <span class="socicon-facebook socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-twitter m-2"  target="_blank">
+                        <span class="socicon-twitter socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-instagram m-2"  target="_blank">
+                        <span class="socicon-instagram socicon"></span>
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a class="iconfont-wrapper bg-tiktok m-2"  target="_blank">
+                        <span class="socicon-tiktok socicon"></span>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="clients04 cid-ud34dItn9Y" id="sponsors-1-ud34dItn9Y">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Healthcare Heroes Unite</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1596622723231-b20320c7346b.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1529612700005-e35377bf1415.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1651044450619-5ce74d316987.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1502828331539-51c709e80300.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="4" data-bs-slide-to="4">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1606136968306-ab2868cc1f21.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/photo-1651853082689-706323a31427.jpeg" alt="Mobirise Website Builder" title="" data-slide-to="6" data-bs-slide-to="6">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form5 cid-ud34dItcKM" id="contact-form-3-ud34dItcKM">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Join the Health Revolution</strong>
+                    </h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="UraHtYXuhwXmRPkcvCJPN9K/dntSrHTZH6vbdDcNjpBJVfidgbvp5kWEjQHYr1YrZ9s+8OSy+W8wed6LbY1LSgJwwWZF7VbqVUx9adyFBHxJ2+8+D3vnFn+qq1JEdGqZ">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-3-ud34dItcKM">
+                        </div>
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-3-ud34dItcKM">
+                        </div>
+                        <div class="col-12 form-group mb-3 mb-3" data-for="url">
+                            <input type="url" name="url" placeholder="Phone" data-form-field="url" class="form-control" value="" id="url-contact-form-3-ud34dItcKM">
+                        </div>
+                        <div class="col-12 form-group mb-3" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-3-ud34dItcKM"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                            <button type="submit" class="btn btn-primary display-7">Get Started Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="contacts03 cid-ud34dIuDkr" id="contacts-11-ud34dIuDkr">
+  
+
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="col-12 col-md-12">
+          <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2">
+            <strong>Connect With Us</strong>
+          </h5>
+          <p class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">
+            Call: 1-800-HEALTHY
+            <br>Email: info@healthunit.com
+            <br>Visit:  Egypt
+            <br>Working Hours: Mon-Fri: 9am-5pm
+          </p> 
+
+          
+        </div>
+      </div>
+        <div class="col-lg-8 side-features">
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6045.3003145248895!2d-73.9884657!3d40.7477229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9ac1f1b85%3A0x7e33d1c0e7af3be4!2zMzUwIDV0aCBBdmUsIE5ldyBZb3JrLCBOWSAxMDExOCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1689597362021!5m2!1sen!2sen" allowfullscreen=""></iframe></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="footer3 cid-ud34dIuUB2" once="footers" id="footer-3-ud34dIuUB2">
+
+        
+
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="row-links">
+                <ul class="header-menu">
+                  
+                  
+                  
+                  
+                <li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">About</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Services</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Blog</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Contact</a>
+                  </li></ul>
+              </div>
+
+            <div class="col-12 mt-4">
+                <div class="social-row">
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-facebook display-7"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span class="mbr-iconfont socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span class="mbr-iconfont socicon-instagram socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-linkedin"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-twitch"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <p class="mbr-fonts-style copyright display-7">© 2024 Health Unit. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/embla/embla.min.js"></script>
+  <script src="assets/embla/script.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  
+  
+  
+</body>
+</html>

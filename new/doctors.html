@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor File System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            height: 100vh;
+        }
+
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .profile p {
+            margin: 10px 0 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        nav ul li {
+            width: 100%;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        nav ul li a.active, nav ul li a:hover {
+            background-color: #495057;
+        }
+
+        .timestamp {
+            margin-top: auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .table-container {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            width: 500px;
+        }
+
+        .modal-content h2 {
+            margin-top: 0;
+        }
+
+        .modal-content form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-content label {
+            margin-top: 10px;
+        }
+
+        .modal-content input, .modal-content select {
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .modal-content button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover, .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+      <div class="sidebar">
+        <div class="profile">
+            <p>Administrator</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="patients.html">Patients</a></li>
+                <li><a href="doctors.html" class="active">Doctors</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Doctors</h1>
+            <button id="addDoctorBtn">+ Add Doctor</button>
+        </header>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Doctor ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Phone Number</th>
+                        <th>Sex</th>
+                    </tr>
+                </thead>
+                <tbody id="doctorTableBody">
+                    <!-- Doctor records will be injected here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="doctorModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Doctor</h2>
+            <form id="doctorForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" required><br>
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+                <button type="submit">Add Doctor</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const addDoctorBtn = document.getElementById('addDoctorBtn');
+            const doctorModal = document.getElementById('doctorModal');
+            const closeModal = document.querySelector('.close');
+            const doctorForm = document.getElementById('doctorForm');
+            const doctorTableBody = document.getElementById('doctorTableBody');
+            let doctorID = 1;
+
+            addDoctorBtn.onclick = () => {
+                doctorModal.style.display = 'flex';
+            };
+
+            closeModal.onclick = () => {
+                doctorModal.style.display = 'none';
+            };
+
+            window.onclick = (event) => {
+                if (event.target == doctorModal) {
+                    doctorModal.style.display = 'none';
+                }
+            };
+
+            doctorForm.onsubmit = (e) => {
+                e.preventDefault();
+                const formData = new FormData(doctorForm);
+                const doctor = {
+                    id: doctorID++,
+                    firstName: formData.get('firstName'),
+                    lastName: formData.get('lastName'),
+                    phoneNumber: formData.get('phoneNumber'),
+                    sex: formData.get('sex')
+                };
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>
+                        <button class="viewBtn">View</button>
+                        <button class="editBtn">Edit</button>
+                    </td>
+                    <td>${doctor.id}</td>
+                    <td>${doctor.firstName}</td>
+                    <td>${doctor.lastName}</td>
+                    <td>${doctor.phoneNumber}</td>
+                    <td>${doctor.sex}</td>
+                `;
+
+                doctorTableBody.appendChild(row);
+                doctorModal.style.display = 'none';
+                doctorForm.reset();
+            };
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            height: 100vh;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile p {
+            margin: 10px 0 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        nav ul li {
+            width: 100%;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        nav ul li a.active, nav ul li a:hover {
+            background-color: #495057;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .performance-metrics {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .metric {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 18%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .metric:hover {
+            transform: translateY(-5px);
+        }
+
+        .charts {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .chart-container {
+            width: 48%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .chart-container:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <p>Administrator</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="patients.html">Patients</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <h1>Analytics Dashboard</h1>
+            
+        </div>
+        <div class="performance-metrics">
+            
+            <div class="metric">doctors<br><span></span></div>
+            <div class="metric">patients<br><span></span></div>
+            <div class="metric">medicines<br><span></span></div>
+        </div>
+        <div class="charts">
+            <div class="chart-container">
+                <canvas id="footTrafficChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="clickDistributionChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Foot Traffic Chart
+            var ctx1 = document.getElementById('footTrafficChart').getContext('2d');
+            var footTrafficChart = new Chart(ctx1, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: 'Daily visits',
+                        data: [300, 400, 350, 500, 600, 700, 750, 800, 650, 600, 550, 500],
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }, {
+                        label: 'Cumulative visits',
+                        data: [300, 700, 1050, 1550, 2150, 2850, 3600, 4400, 5050, 5650, 6200, 6700],
+                        type: 'line',
+                        fill: false,
+                        borderColor: 'rgba(75, 192, 192, 1)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            // Click Distribution Chart
+            var ctx2 = document.getElementById('clickDistributionChart').getContext('2d');
+            var clickDistributionChart = new Chart(ctx2, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Clicks After 1 impression', 'Clicks After 2-5 impressions', 'Clicks After 5+ impressions'],
+                    datasets: [{
+                        data: [1838046, 539623, 230700],
+                        backgroundColor: ['rgba(255, 99, 132, 0.6)', 'rgba(255, 206, 86, 0.6)', 'rgba(75, 192, 192, 0.6)'],
+                        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true
+                }
+            });
+        });
+    </script>
+</body>
+</html>
